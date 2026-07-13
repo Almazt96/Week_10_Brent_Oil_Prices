@@ -14,3 +14,24 @@ This full-stack interactive dashboard allows stakeholders to visualize and filte
 1. Navigate to the backend directory:
    ```bash
    cd backend
+
+# 📊 Interactive Dashboard Setup Guide
+
+This dashboard comprises a React frontend and a Flask backend API. Follow these instructions to spin up the local environment.
+
+## 1. Backend Setup (Flask)
+From the project root directory:
+
+```bash
+# Navigate to backend/dashboard directory (if applicable)
+cd backend
+
+# Create and activate a virtual environment
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the API server
+python app.py
